@@ -1,0 +1,7 @@
+fr:
+  devise:
+    sessions:
+      warn_pwned: "Your FR password has previously appeared in a data breach and should never be used. We strongly recommend you change your password."
+  errors:
+    messages:
+      pwned_password: "FR has previously appeared in a data breach and should never be used. Please choose something harder to guess."
