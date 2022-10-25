@@ -18,6 +18,8 @@ end
 
 # Load default I18n
 #
-I18n.load_path.unshift File.join(File.dirname(__FILE__), *%w[pwned_password locales en.yml fr.yml qu.yml])
+I18n.load_path.unshift File.join(File.dirname(__FILE__), *%w[pwned_password locales en.yml])
+I18n.load_path.unshift File.join(File.dirname(__FILE__), *%w[pwned_password locales fr.yml])
+I18n.load_path.unshift File.join(File.dirname(__FILE__), *%w[pwned_password locales qu.yml])
 
 Devise.add_module :pwned_password, model: "devise_pwned_password/model"
